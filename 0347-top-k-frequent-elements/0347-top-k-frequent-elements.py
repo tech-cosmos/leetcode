@@ -8,11 +8,6 @@ class Solution:
             else:
                 num_map[num]=1
         
-        val=sorted(list(num_map.values()), reverse=True)
-        req=val[:k]
-        for key in num_map:
-            value=num_map[key]
-            if value in req:
-                res.append(key)
-        return res
+        freq=dict(sorted(num_map.items(), key=lambda x: x[1], reverse=True))
+        return list(freq.keys())[:k]
         
