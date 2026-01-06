@@ -13,5 +13,5 @@ class Solution:
             r*=nums[i]
 
         return ans
-__import__("atexit").register(lambda: open("display_runtime.txt", "w").write("1"))
+
         
