@@ -5,7 +5,6 @@ class Solution:
         def row_check():
             for row in board:
                 if not check_valid(row):
-                    print('invalid row', row)
                     return False
             return True
         
@@ -13,7 +12,6 @@ class Solution:
             for i in range(9):
                 nums=[row[i] for row in board]
                 if not check_valid(nums):
-                    print('invalid column', nums)
                     return False
             return True
 
@@ -29,11 +27,7 @@ class Solution:
                 if gc!=0:
                     base+=(27*gc)
                 grid=bb[base:base+3]+bb[base+9:base+12]+bb[base+18:base+21]
-                if i==2:
-                    print('Third Grid : ', grid, base, gc)
                 if not check_valid(grid):
-                    print('grid no ', i)
-                    print('invalid grid', grid, gc, base)
                     return False
             return True
         
