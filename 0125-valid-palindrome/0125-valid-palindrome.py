@@ -7,9 +7,7 @@ class Solution:
         n=len(converted)
         l,r=0,n-1
         for i in range(n//2):
-            print("Entering Loop")
             if converted[l+i]!=converted[r-i]:
-                print("Checking {} and {}".format(converted[l+i],converted[r-i]))
                 return False
         return True
         
