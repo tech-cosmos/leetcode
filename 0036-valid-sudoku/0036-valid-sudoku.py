@@ -41,7 +41,4 @@ class Solution:
                     return False
             return True
 
-        if row_check() and col_check() and grid_check():
-            return True
-        else:
-            return False
+        return row_check() and col_check() and grid_check()
