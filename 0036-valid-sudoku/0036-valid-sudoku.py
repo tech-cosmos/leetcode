@@ -2,35 +2,7 @@ class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         from collections import defaultdict
         valid=True
-        def row_check():
-            for row in board:
-                if not check_valid(row):
-                    return False
-            return True
-        
-        def col_check():
-            for i in range(9):
-                nums=[row[i] for row in board]
-                if not check_valid(nums):
-                    return False
-            return True
-
-        def grid_check():
-            bb=[]
-            for row in board:
-                for j in range(len(row)):
-                    bb.append(row[j])
-            for i in range(9):
-                gc=i//3
-                rem=i%3
-                base=rem*3
-                if gc!=0:
-                    base+=(27*gc)
-                grid=bb[base:base+3]+bb[base+9:base+12]+bb[base+18:base+21]
-                if not check_valid(grid):
-                    return False
-            return True
-        
+        bb=[]
         def check_valid(arr):
             num_map=defaultdict(int)
             for num in arr:
@@ -41,4 +13,20 @@ class Solution:
                     return False
             return True
 
-        return row_check() and col_check() and grid_check()
+        for row in board:
+            if not check_valid(row):
+                return False
+            for j in range(9):
+                bb.append(row[j])
+        for i in range(9):
+            nums=[bb[j*9+i] for j in range(9)]
+            if not check_valid(nums):
+                return False
+            gc=i//3
+            base=(i%3)*3
+            if gc!=0:
+                base+=(27*gc)
+            grid=bb[base:base+3]+bb[base+9:base+12]+bb[base+18:base+21]
+            if not check_valid(grid):
+                return False
+        return True
