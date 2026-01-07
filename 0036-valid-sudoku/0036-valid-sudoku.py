@@ -4,14 +4,15 @@ class Solution:
         valid=True
         bb=[]
         def check_valid(arr):
-            num_map=defaultdict(int)
+            seen=set()
             for num in arr:
-                num_map[num]+=1
-            num_map['.']=0
-            for x in list(num_map.values()):
-                if x>1:
+                if num=='.':
+                    continue
+                if num in seen:
                     return False
+                seen.add(num)
             return True
+
 
         for row in board:
             if not check_valid(row):
