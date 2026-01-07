@@ -1,7 +1,6 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        from collections import defaultdict
-        valid=True
+
         bb=[]
         def check_valid(arr):
             seen=set()
@@ -14,11 +13,11 @@ class Solution:
             return True
 
 
-        for row in board:
-            if not check_valid(row):
+        for r in range(9):
+            if not check_valid(board[r]):
                 return False
             for j in range(9):
-                bb.append(row[j])
+                bb.append(board[r][j])
         for i in range(9):
             nums=[bb[j*9+i] for j in range(9)]
             if not check_valid(nums):
