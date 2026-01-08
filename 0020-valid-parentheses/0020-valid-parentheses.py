@@ -1,14 +1,13 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         a=[]
-        valid_open=['(','{','[']
         valid={
             ')':'(',
             ']':'[',
             '}':'{'
         }
         for i in range(len(s)):
-            if s[i] in valid_open:
+            if s[i] in ['(','{','[']:
                 a.append(s[i])
             else:
                 if not a:
