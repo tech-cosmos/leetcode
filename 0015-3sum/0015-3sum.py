@@ -9,6 +9,9 @@ class Solution:
             j=i+1
             k=n-1
             
+            if nums[i]>0:
+                break
+
             while j<k:
                 total=nums[i]+nums[j]+nums[k]
                 if total==0:
@@ -16,10 +19,10 @@ class Solution:
                     j+=1
                     while nums[j]==nums[j-1] and j<k:
                         j+=1
-                if total<0:
+                elif total<0:
                     j+=1
                     while nums[j]==nums[j-1] and j<k:
                         j+=1
-                if total>0:
+                else:
                     k-=1
         return ans
