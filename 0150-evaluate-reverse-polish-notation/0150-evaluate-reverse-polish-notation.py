@@ -13,10 +13,8 @@ class Solution:
                 elif token =='*':
                     a.append(a.pop()*a.pop())
                 else:
-                    first=a.pop()
-                    second=a.pop()
-                    got=int(second/first)
-                    print('Got by Division: ', got)
-                    a.append(got)
+                    denominator=a.pop()
+                    numerator=a.pop()
+                    a.append(int(numerator/denominator))
         return a[-1]
         
