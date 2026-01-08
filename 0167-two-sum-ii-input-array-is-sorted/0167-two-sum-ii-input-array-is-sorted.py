@@ -1,16 +1,9 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        ans=[]
         n=len(numbers)
         for i in range(n):
-            compliment=target-numbers[i]
-            if compliment>numbers[-1]:
-                continue
-            r=n-1
-            while numbers[r]>compliment:
-                r-=1
-            if numbers[r]==compliment:
-                ans.append(i+1)
-                ans.append(r+1)
-                return ans
+            x=target-numbers[i]
+            y=numbers[:i]+numbers[i+1:]
+            if x in y:
+                return [i+1, y.index(x)+2]
         
