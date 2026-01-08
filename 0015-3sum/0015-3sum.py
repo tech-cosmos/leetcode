@@ -8,18 +8,18 @@ class Solution:
                 continue
             j=i+1
             k=n-1
+            
             while j<k:
-                if nums[i]+nums[j]+nums[k]==0:
-                    candidate=[nums[i],nums[j],nums[k]]
-                    ans.append(candidate)
+                total=nums[i]+nums[j]+nums[k]
+                if total==0:
+                    ans.append([nums[i],nums[j],nums[k]])
                     j+=1
                     while nums[j]==nums[j-1] and j<k:
                         j+=1
-                if nums[i]+nums[j]+nums[k]<0:
+                if total<0:
                     j+=1
                     while nums[j]==nums[j-1] and j<k:
                         j+=1
-                if nums[i]+nums[j]+nums[k]>0:
+                if total>0:
                     k-=1
-                
         return ans
