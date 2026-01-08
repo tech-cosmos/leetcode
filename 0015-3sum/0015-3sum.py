@@ -17,14 +17,8 @@ class Solution:
                 if total==0:
                     ans.append([nums[i],nums[j],nums[k]])
                     j+=1
-                    k -= 1
-
-                    # skip duplicates on the left
-                    while j < k and nums[j] == nums[j - 1]:
-                        j += 1
-                    # skip duplicates on the right
-                    while j < k and nums[k] == nums[k + 1]:
-                        k -= 1
+                    while nums[j]==nums[j-1] and j<k:
+                        j+=1
                 elif total<0:
                     j+=1
                     while nums[j]==nums[j-1] and j<k:
