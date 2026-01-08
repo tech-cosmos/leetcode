@@ -5,9 +5,7 @@ class Solution:
         l,r=0,n-1
         while r>l:
             h=min(height[l], height[r])
-            vol=h*(r-l)
-            if most<vol:
-                most=vol
+            most=max(most,h*(r-l))
             if height[r]>height[l]:
                 l+=1
             else:
