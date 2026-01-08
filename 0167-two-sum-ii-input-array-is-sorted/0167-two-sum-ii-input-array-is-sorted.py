@@ -2,8 +2,6 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         ans=[]
         n=len(numbers)
-        if n==0:
-            return null
         for i in range(n):
             compliment=target-numbers[i]
             if compliment>numbers[-1]:
