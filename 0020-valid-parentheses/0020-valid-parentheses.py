@@ -7,7 +7,7 @@ class Solution:
             '}':'{'
         }
         for i in range(len(s)):
-            if s[i] in ['(','{','[']:
+            if s[i] in valid.values():
                 a.append(s[i])
             else:
                 if not a:
