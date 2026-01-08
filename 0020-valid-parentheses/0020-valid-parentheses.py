@@ -2,6 +2,11 @@ class Solution:
     def isValid(self, s: str) -> bool:
         a=[]
         valid_open=['(','{','[']
+        valid={
+            ')':'(',
+            ']':'[',
+            '}':'{'
+        }
         for i in range(len(s)):
             if s[i] in valid_open:
                 a.append(s[i])
@@ -9,10 +14,6 @@ class Solution:
                 if not a:
                     return False
                 last=a.pop()
-                if s[i]==')' and last!='(':
-                    return False
-                elif s[i]==']' and last!='[':
-                    return False
-                elif s[i]=='}' and last!='{':
+                if s[i] in valid and last!=valid[s[i]]:
                     return False
         return len(a)==0
