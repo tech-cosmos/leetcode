@@ -5,7 +5,6 @@ class Solution:
             mid=(l+r)//2
             if nums[mid]>nums[r]:
                 l=mid+1
-                low=nums[r]
             else:
                 r=mid
         return nums[l]
