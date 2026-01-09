@@ -1,11 +1,12 @@
+from math import ceil
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        l,r=(sum(piles)+h-1)//h,max(piles)
+        l,r=ceil(sum(piles)/h),max(piles)
 
         def canEat(speed):
             time=0
             for pile in piles:
-                time+=(pile+speed-1)//speed
+                time+=ceil(pile/speed)
                 if time>h:
                     return False
             return True
