@@ -13,7 +13,7 @@ class TimeMap:
     def get(self, key: str, timestamp: int) -> str:
         if key not in self.store:
             return ""
-        arr=self.store[key]
+        # arr=self.store[key]
         # l,r=0,len(arr)-1
         # current=""
         # while l<=r:
@@ -25,9 +25,9 @@ class TimeMap:
         #         print("Setting Current ",times_value)
         #         l=mid+1
         #         current=times_value
-        i=bisect_right(arr,(timestamp,chr(255)))-1
+        i=bisect_right(self.store[key],(timestamp,chr(255)))-1
         if i>=0:
-            return arr[i][1]
+            return self.store[key][i][1]
         return ""
 
 
