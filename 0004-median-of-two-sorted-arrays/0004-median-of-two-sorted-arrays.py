@@ -9,8 +9,6 @@ class Solution:
         n=len(nums2)
         mid=(n+m)//2
         if (n+m)%2==0:
-            print("Mid 1 : ", final[mid-1])
-            print("Mid 2 : ", final[mid])
             return (final[mid-1]+final[mid])/2
         else:
             return final[mid]
