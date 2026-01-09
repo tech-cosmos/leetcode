@@ -1,5 +1,6 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        piles.sort()
         l,r=1,max(piles)
 
         def canEat(speed):
@@ -14,7 +15,6 @@ class Solution:
         
         while l<r:
             mid=(l+r)//2
-            print("Checking for {} at speed {}".format(mid,mid))
             if canEat(mid):
                 r = mid
             else:
