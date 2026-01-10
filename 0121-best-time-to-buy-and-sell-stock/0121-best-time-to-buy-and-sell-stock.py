@@ -2,9 +2,7 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit, bp =0, prices[0]
         bp=prices[0]
-        for i,price in enumerate(prices):
-            if i==0:
-                continue
+        for price in prices[1:]:
             if price>bp:
                 if profit<price-bp:
                     profit=price-bp
