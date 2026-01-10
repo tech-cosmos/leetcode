@@ -2,9 +2,7 @@ class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         
         chars=[0]*26
-        left=0
-        count=0
-        maxFreq=0
+        left,right,maxFreq,count=0,0,0,0
         for right,ch in enumerate(s):
             idx=ord(ch)-ord('A')
             chars[idx]+=1
