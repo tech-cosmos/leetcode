@@ -20,11 +20,10 @@ class Solution:
         
         curr=head
         while curr:
-            copy=new[curr]
             if curr.next:
-                copy.next=new.get(curr.next)
+                new[curr].next=new[curr.next]
             if curr.random:
-                copy.random=new.get(curr.random)
+                new[curr].random=new[curr.random]
             curr=curr.next
         
         return new[head]
