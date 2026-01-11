@@ -11,13 +11,16 @@ class Solution:
         tail=dummy
         heap=[]
         for i,node in enumerate(lists):
-            while node:
-                heapq.heappush(heap,node.val)
-                node=node.next
-        while heap:
-            val=heapq.heappop(heap)
-            tail.next=ListNode(val)
-            tail=tail.next
+            if node:
+                heapq.heappush(heap,(node.val, i , node))
         
+        while heap:
+            val, i , node=heapq.heappop(heap)
+            tail.next=node
+            tail=tail.next
+
+            if node.next:
+                node=node.next
+                heapq.heappush(heap, (node.val, i, node))
         tail.next=None
         return dummy.next
