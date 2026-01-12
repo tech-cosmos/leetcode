@@ -16,9 +16,7 @@ class Solution:
             ans[i]=node.val
             if node.left:
                 q.append((node.left,i+1))
-                ans[i]=node.val
             if node.right:
                 q.append((node.right,i+1))
-                ans[i]=node.val
         
         return list(ans.values())
