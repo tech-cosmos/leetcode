@@ -11,8 +11,6 @@ class Solution:
             nonlocal best
             if not tree:
                 return -1
-            left=tree.left
-            right=tree.right
 
             l,r=height(tree.left), height(tree.right)
 
