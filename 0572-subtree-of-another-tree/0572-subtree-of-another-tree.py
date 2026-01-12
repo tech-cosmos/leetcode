@@ -9,7 +9,7 @@ class Solution:
         def isSameTree(p,q):
             if not p and not q:
                 return True
-            if p and not q:
+            if not q or not q:
                 return False
             if q and not p:
                 return False
