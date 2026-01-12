@@ -13,16 +13,10 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        tokens=[]
-        def dfs(node):
-            if not node:
-                tokens.append("N")
-                return
-            tokens.append(str(node.val))
-            dfs(node.left)
-            dfs(node.right)
-        dfs(root)
-        return ",".join(tokens)
+        if root is None:
+            return "N"
+        
+        return str(root.val)+","+self.serialize(root.left)+","+self.serialize(root.right) 
             
 
     def deserialize(self, data):
