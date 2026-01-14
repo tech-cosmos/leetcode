@@ -4,10 +4,8 @@ class Solution:
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
         intervals.sort(key=lambda x: x[0])
         queries_sorted=sorted([(q,i) for i,q in enumerate(queries)])
-        res=[-1]*len(queries)
-        i=0
-        n=len(intervals)
-        heap=[]
+        res,heap=[-1]*len(queries),[]
+        i,n=0,len(intervals)
 
         for q,qi in queries_sorted:
             while i<n and intervals[i][0]<=q:
