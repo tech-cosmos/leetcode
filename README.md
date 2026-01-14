@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/tech-cosmos/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/tech-cosmos/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/tech-cosmos/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/tech-cosmos/leetcode/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/tech-cosmos/leetcode/tree/master/0739-daily-temperatures) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/tech-cosmos/leetcode/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/tech-cosmos/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/tech-cosmos/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
 | [0853-car-fleet](https://github.com/tech-cosmos/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/tech-cosmos/leetcode/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
 ## Dynamic Programming
 |  |
@@ -175,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/tech-cosmos/leetcode/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tech-cosmos/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/tech-cosmos/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Stack
 |  |
 | ------- |
