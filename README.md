@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/tech-cosmos/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/tech-cosmos/leetcode/tree/master/1046-last-stone-weight) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Hash Table
 |  |
 | ------- |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
 | [0853-car-fleet](https://github.com/tech-cosmos/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## String
 |  |
 | ------- |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/tech-cosmos/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/tech-cosmos/leetcode/tree/master/1046-last-stone-weight) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/tech-cosmos/leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/tech-cosmos/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/tech-cosmos/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Greedy
 |  |
 | ------- |
@@ -362,4 +366,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
+## Line Sweep
+|  |
+| ------- |
+| [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
