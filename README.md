@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/tech-cosmos/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/tech-cosmos/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/tech-cosmos/leetcode/tree/master/0567-permutation-in-string) |
+| [0678-valid-parenthesis-string](https://github.com/tech-cosmos/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/tech-cosmos/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Divide and Conquer
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/tech-cosmos/leetcode/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/tech-cosmos/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/tech-cosmos/leetcode/tree/master/0846-hand-of-straights) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/tech-cosmos/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tech-cosmos/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/tech-cosmos/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0678-valid-parenthesis-string](https://github.com/tech-cosmos/leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Stack
 |  |
 | ------- |
@@ -213,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/tech-cosmos/leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/tech-cosmos/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/tech-cosmos/leetcode/tree/master/0155-min-stack) |
+| [0678-valid-parenthesis-string](https://github.com/tech-cosmos/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/tech-cosmos/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/tech-cosmos/leetcode/tree/master/0853-car-fleet) |
 ## Monotonic Stack
