@@ -9,7 +9,7 @@ class Solution:
         for x in sorted(freq):
             count=freq[x]
             if count>0:
-                for v in range(x+1, x+groupSize):
+                for v in range(x, x+groupSize):
                     if freq[v]<count:
                         return False
                     freq[v]-=count
