@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/tech-cosmos/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/tech-cosmos/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/tech-cosmos/leetcode/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/tech-cosmos/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Sorting
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/tech-cosmos/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/tech-cosmos/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/tech-cosmos/leetcode/tree/master/0567-permutation-in-string) |
+| [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/tech-cosmos/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
@@ -166,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/tech-cosmos/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/tech-cosmos/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/tech-cosmos/leetcode/tree/master/0567-permutation-in-string) |
+| [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 ## Binary Search
 |  |
 | ------- |
@@ -188,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/tech-cosmos/leetcode/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/tech-cosmos/leetcode/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/tech-cosmos/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/tech-cosmos/leetcode/tree/master/0846-hand-of-straights) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/tech-cosmos/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Dynamic Programming
