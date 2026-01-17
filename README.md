@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/tech-cosmos/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/tech-cosmos/leetcode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/tech-cosmos/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/tech-cosmos/leetcode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/tech-cosmos/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tech-cosmos/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/tech-cosmos/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/tech-cosmos/leetcode/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/tech-cosmos/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Doubly-Linked List
 |  |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/tech-cosmos/leetcode/tree/master/0078-subsets) |
 | [0212-word-search-ii](https://github.com/tech-cosmos/leetcode/tree/master/0212-word-search-ii) |
 ## Data Stream
 |  |
