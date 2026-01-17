@@ -1,22 +1,18 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res=[]
-        subset=[]
+        a,b='(',')'
 
-        def dfs(open_used, closed_used):
+        def dfs(s="",open_used=0, closed_used=0):
             if open_used==n and closed_used==n:
-                res.append("".join(subset))
+                res.append(s)
             
             if open_used<n:
-                subset.append('(')
-                dfs(open_used+1, closed_used)
-                subset.pop()
+                dfs(s+a, open_used+1, closed_used)
             
             if closed_used<open_used:
-                subset.append(')')
-                dfs(open_used, closed_used+1)
-                subset.pop()
+                dfs(s+b,open_used, closed_used+1)
         
-        dfs(0,0)
+        dfs()
         return res
 
