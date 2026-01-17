@@ -13,16 +13,14 @@ class Solution:
         }
         subset=[]
 
-        def dfs(i):
-            if i>=len(digits):
-                res.append("".join(subset))
+        def dfs(i, curr):
+            if i==len(digits):
+                res.append(curr)
                 return
             digit=digits[i]
             for c in digitToChar[digit]:
-                subset.append(c)
-                dfs(i+1)
-                subset.pop()
+                dfs(i+1, curr+c)
             
-        dfs(0)
+        dfs(0,"")
         return res
         
