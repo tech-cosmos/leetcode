@@ -21,8 +21,6 @@ class Solution:
                     count=max(count, time+1)
                     q.append((nr,nc,time+1))
         
-        print(grid)
-
         for i in range(m):
             for j in range(n):
                 if grid[i][j]==1:
