@@ -18,7 +18,7 @@ class Solution:
                 nr,nc=r+dr, c+dc
                 if 0<=nr<m and 0<=nc<n and grid[nr][nc] not in (0,2):
                     grid[nr][nc]=2
-                    count=max(count, time+1)
+                    count=time+1
                     q.append((nr,nc,time+1))
         
         for i in range(m):
