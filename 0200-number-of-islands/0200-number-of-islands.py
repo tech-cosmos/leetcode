@@ -6,9 +6,7 @@ class Solution:
 
         count=0
         def dfs(i,j):
-            if i>=m or i<0 or j>=n or j<0:
-                return
-            if grid[i][j]=="0" or seen[i][j]:
+            if i>=m or i<0 or j>=n or j<0 or grid[i][j]=="0" or seen[i][j]:
                 return
             
             seen[i][j]=True
