@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/tech-cosmos/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/tech-cosmos/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0973-k-closest-points-to-origin](https://github.com/tech-cosmos/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0994-rotting-oranges](https://github.com/tech-cosmos/leetcode/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/tech-cosmos/leetcode/tree/master/1046-last-stone-weight) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/tech-cosmos/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/tech-cosmos/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/tech-cosmos/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/tech-cosmos/leetcode/tree/master/0212-word-search-ii) |
 | [0695-max-area-of-island](https://github.com/tech-cosmos/leetcode/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/tech-cosmos/leetcode/tree/master/0994-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/tech-cosmos/leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/tech-cosmos/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/tech-cosmos/leetcode/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/tech-cosmos/leetcode/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/tech-cosmos/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
