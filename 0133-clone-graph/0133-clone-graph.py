@@ -15,19 +15,13 @@ class Solution:
             return
         
         nodes={}
-        neighbors=defaultdict(list)
         
-
-        def cloneNode(node):
+        def dfs(node):
+            if node.val in nodes:
+                return nodes[node.val]
             nodes[node.val]=Node(node.val)
-            for neighbor in node.neighbors:
-                neighbors[node.val].append(neighbor.val)
-                if neighbor.val not in nodes:
-                    cloneNode(neighbor)
+            for n in node.neighbors:
+                nodes[node.val].neighbors.append(dfs(n))
+            return nodes[node.val]
         
-        cloneNode(mainnode)
-
-        for val in nodes:
-            nodes[val].neighbors=[nodes[n] for n in neighbors[val]]
-        
-        return nodes[mainnode.val]
+        return dfs(mainnode)
