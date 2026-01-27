@@ -19,7 +19,7 @@ class Solution:
                 if indegree[v]==0:
                     q.append(v)
         
-        if len(taken)<numCourses:
-            return []
-        else:
+        if len(taken)==numCourses:
             return taken
+        else:
+            return []
